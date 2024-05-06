@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70131DE0-52E5-4D2D-8DA3-8CC185E7BE25}|CapaAdmin\\CapaAdmin.csproj|c:\\users\\olart\\onedrive\\documentos\\c#\\prmvc\\capaadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70131DE0-52E5-4D2D-8DA3-8CC185E7BE25}|CapaAdmin\\CapaAdmin.csproj|solutionrelative:capaadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46B71C2C-03C4-4C34-9F50-7460BF231880}|CapaDatos\\CapaDatos.csproj|c:\\users\\olart\\onedrive\\documentos\\c#\\prmvc\\capadatos\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46B71C2C-03C4-4C34-9F50-7460BF231880}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70131DE0-52E5-4D2D-8DA3-8CC185E7BE25}|CapaAdmin\\CapaAdmin.csproj|c:\\users\\olart\\onedrive\\documentos\\c#\\prmvc\\capaadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70131DE0-52E5-4D2D-8DA3-8CC185E7BE25}|CapaAdmin\\CapaAdmin.csproj|solutionrelative:capaadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\CapaAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "CapaAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\CapaAdmin\\Program.cs",
+              "RelativeToolTip": "CapaAdmin\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T19:25:51.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\CapaAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "CapaAdmin\\appsettings.json",
+              "ToolTip": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\CapaAdmin\\appsettings.json",
+              "RelativeToolTip": "CapaAdmin\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-06T18:45:22.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\CapaDatos\\Tarea.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Tarea.cs",
+              "ToolTip": "C:\\Users\\olart\\OneDrive\\Documentos\\C#\\PrMVC\\CapaDatos\\Tarea.cs",
+              "RelativeToolTip": "CapaDatos\\Tarea.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:40:40.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
