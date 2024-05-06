@@ -1,0 +1,18 @@
+.vs/
+# Ignorar las carpetas bin y obj
+**/bin/
+**/obj/
+
+# Otras carpetas y archivos comúnmente ignorados en proyectos .NET
+**/packages/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+**/Debug/
+**/Release/
+*.nupkg
+*.cache
+*.log
+*.vs/
+*.vscode/
