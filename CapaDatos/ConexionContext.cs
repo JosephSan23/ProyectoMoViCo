@@ -18,73 +18,29 @@ namespace CapaDatos
         //public DbSet<Venta> Ventas { get; set; }
         public ConexionContext(DbContextOptions<ConexionContext> options) : base(options) { }
 
+        // Configuraciones
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //carrito
             modelBuilder.ApplyConfiguration(new CarritoConfiguration());
-
+            //categoria
+            modelBuilder.ApplyConfiguration(new CategoriaConfiguration());
+            // cliente
             modelBuilder.ApplyConfiguration(new ClienteConfiguration());
+            // detalleventa
+            modelBuilder.ApplyConfiguration(new DetalleVentaConfiguration());
+            //marca
+            modelBuilder.ApplyConfiguration(new MarcaConfiguration());
+            //producto
+            modelBuilder.ApplyConfiguration(new ProductoConfiguration());
+            //usuario
+            modelBuilder.ApplyConfiguration(new UsuarioConfiguration());
+            //venta
+            modelBuilder.ApplyConfiguration(new VentaConfiguration());
 
 
             // Aplica otras configuraciones aquí
         }
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Carrito>(Carrito =>
-        //    {
-        //        Carrito.ToTable("Carrito");
-
-        //        Carrito.HasKey(c => c.CarritoId);
-        //        Carrito.Property(c => c.CarritoId)
-        //               .HasColumnName("carrito_id")
-        //               .ValueGeneratedOnAdd();
-
-        //        Carrito.HasOne(c => c.oCliente)
-        //               .WithMany() // Aquí defines la navegación inversa si existe
-        //               .HasForeignKey("ClienteId"); // Asegúrate de que esta propiedad existe en Cliente
-
-        //        Carrito.Property(p => p.oProducto);
-        //        //Carrito.HasOne(c => c.oProducto)
-        //        //       .WithMany()
-        //        //       .HasForeignKey("ProductoId");
-
-        //        Carrito.Property(c => c.Cantidad)
-        //               .IsRequired();
-
-        //    });
-
-        //    modelBuilder.Entity<Cliente>(Cliente =>
-        //    {
-        //        Cliente.ToTable("Cliente");
-
-        //        Cliente.HasKey(c => c.ClienteId);
-        //        Cliente.Property(c => c.ClienteId)
-        //               .HasColumnName("cliente_id")
-        //               .ValueGeneratedOnAdd();
-
-        //        Cliente.Property(c => c.Nombres)
-        //                .IsRequired()
-        //                .HasMaxLength(50);
-
-        //        Cliente.Property(c => c.Apellidos)
-        //               .IsRequired()
-        //               .HasMaxLength(50);
-
-        //        Cliente.Property(c => c.Correo)
-        //               .IsRequired()
-        //               .HasMaxLength(100);
-
-        //        Cliente.Property(c => c.Contraseña)
-        //               .IsRequired()
-        //               .HasMaxLength(255);
-
-        //        Cliente.Property(c => c.RestablecerContraseña)
-        //               .IsRequired()
-        //               .HasDefaultValue(false);
-
-        //    });
-
-        //}
-
     }
 }

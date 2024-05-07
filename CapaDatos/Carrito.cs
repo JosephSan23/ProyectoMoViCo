@@ -13,7 +13,8 @@ namespace CapaDatos
         public int CarritoId { get; set; }
         public int ClienteId { get; set; }
         public Cliente oCliente { get; set; }
-        public int oProducto { get; set; }
+        public int ProductoId { get; set; }
+        public Producto oProducto { get; set; }
         public int Cantidad { get; set; }
     }
 }

@@ -8,12 +8,14 @@ namespace CapaDatos
 {
     public class DetalleVenta
     {
-        public int idDetalleVenta { get; set; }
-        public int idVenta { get; set; }
+        public int DetalleVentaId { get; set; }
+        public int VentaId { get; set; }
+        public Venta oVenta { get; set; }
+        public int ProductoId { get; set; }
         public Producto oProducto { get; set; }
         public int cantidad { get; set; }
         public float total { get; set; }
-        public string idTransaccion { get; set; }
+        public string TransaccionId { get; set; }
 
 
     }

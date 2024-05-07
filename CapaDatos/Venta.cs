@@ -8,17 +8,19 @@ namespace CapaDatos
 {
     public class Venta
     {
-        public int idVenta { get; set; }
-        public int idCliente { get; set; }
-        public int totalCompra { get; set; }
-        public float montoTotal { get; set; }
-        public string contacto { get; set; }
+        public int VentaId { get; set; }
+        public int ClienteId { get; set; }
+        public Cliente oCliente { get; set; }
+        public int TotalCompra { get; set; }
+        public float MontoTotal { get; set; }
+        public string Contacto { get; set; }
         public string Ciudad { get; set; }
-        public string departamento { get; set; }
-        public string telefono { get; set; }
-        public string direccion { get; set; }
-        public string idTransaccion { get; set; }
-        public List<DetalleVenta> ODetalleVenta { get; set; }
+        public string Departamento { get; set; }
+        public string Telefono { get; set; }
+        public string Direccion { get; set; }
+        public string TransaccionId { get; set; }
+        public List<DetalleVenta> oDetalleVenta { get; set; }
+        public DateTime FechaVenta { get; set; }
 
     }
 }

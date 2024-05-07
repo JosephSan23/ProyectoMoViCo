@@ -8,9 +8,17 @@ namespace CapaDatos
 {
     public class Marca
     {
-        public int idMarca { get; set; }
-        public string descripcion { get; set; }
-        public bool activo { get; set; }
+        public int MarcaId { get; set; }
+        public string Descripcion { get; set; }
+        public bool Activo { get; set; }
+        public DateTime FechaRegistro { get; set; }
+
+        //public ICollection<Producto> Productos { get; set; } // Colección de productos
+
+        //public Marca()
+        //{
+        //    Productos = new HashSet<Producto>();
+        //}
 
     }
 }

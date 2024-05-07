@@ -8,13 +8,14 @@ namespace CapaDatos
 {
     public class Usuario
     {
-        public int idUsuario { get; set; }
-        public string nombres { get; set; }
-        public string apellidos { get; set; }
-        public string correo { get; set; }
-        public string contraseña { get; set; }
-        public bool restablecerContraseña { get; set; }
-        public bool activo { get; set; }
+        public int UsuarioId { get; set; }
+        public string Nombres { get; set; }
+        public string Apellidos { get; set; }
+        public string Correo { get; set; }
+        public string Contraseña { get; set; }
+        public bool RestablecerContraseña { get; set; }
+        public bool Activo { get; set; }
+        public DateTime FechaRegistro { get; set; }
 
 
     }

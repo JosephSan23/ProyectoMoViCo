@@ -12,14 +12,37 @@ namespace CapaDatos.Configurations
     {
         public void Configure(EntityTypeBuilder<Cliente> builder)
         {
-            builder.ToTable("Clientes");
+            builder.ToTable("Cliente");
+
             builder.HasKey(c => c.ClienteId);
-            builder.Property(c => c.ClienteId).ValueGeneratedOnAdd();
-            builder.Property(c => c.Nombres).IsRequired().HasMaxLength(50);
-            builder.Property(c => c.Apellidos).IsRequired().HasMaxLength(50);
-            builder.Property(c => c.Correo).IsRequired().HasMaxLength(100);
-            builder.Property(c => c.Contraseña).IsRequired().HasMaxLength(255);
-            builder.Property(c => c.RestablecerContraseña).IsRequired().HasDefaultValue(false);
+            builder.Property(c => c.ClienteId)
+                .HasColumnName("cliente_id")
+                .ValueGeneratedOnAdd();
+
+            builder.Property(c => c.Nombres)
+                .IsRequired()
+                .HasMaxLength(50)
+                .HasColumnName("nombres");
+
+            builder.Property(c => c.Apellidos)
+                .IsRequired()
+                .HasMaxLength(50)
+                .HasColumnName("apellidos");
+
+            builder.Property(c => c.Correo)
+                .IsRequired()
+                .HasMaxLength(100)
+                .HasColumnName("correo");
+
+            builder.Property(c => c.Contraseña)
+                .IsRequired()
+                .HasMaxLength(255)
+                .HasColumnName("contraseña");
+
+            builder.Property(c => c.RestablecerContraseña)
+                .IsRequired()
+                .HasDefaultValue(false)
+                .HasColumnName("restablecer_contraseña");
         }
     }
 }
