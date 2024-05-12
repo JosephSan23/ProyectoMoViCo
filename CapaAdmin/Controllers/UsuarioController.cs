@@ -23,7 +23,7 @@ namespace CapaAdmin.Controllers
         public IActionResult ListarUsuariosJson()
         {
             var usuarios = _context.Usuarios.ToList();
-            return Json(usuarios);
+            return Json(new { data = usuarios });
         }
         //{
         //    private readonly UsuarioServices _usuarioService;
